@@ -92,7 +92,7 @@ The boards are designed to fit inside a specific case (size and
 mounting holes) which can be [found
 here](http://www.aliexpress.com/item/Wholesale-electrical-junction-box-10pcs-105-65-40mm-plastic-instrument-box-plastic-box-electronic-project-box/1986580384.html).
 There are many options for ordering this case on AliExpress (various
-quantities and vendors).  Searching for ["105*65*40mm"](http://www.aliexpress.com/af/105*65*40mm.html?ltype=wholesale&d=y&origin=n&isViewCP=y&catId=0&initiative_id=SB_20160206141640&SearchText=105*65*40mm) will
+quantities and vendors).  Searching for ["105\*65\*40mm"](http://www.aliexpress.com/af/105*65*40mm.html?ltype=wholesale&d=y&origin=n&isViewCP=y&catId=0&initiative_id=SB_20160206141640&SearchText=105*65*40mm) will
 generally show them all.
 
 ![Case](images/case.jpg)
