@@ -104,7 +104,7 @@ class is constructed by passing it a structure from the main board
 class which defines which slot it's plugged in to.  The boards (mother
 and children) all contain elements for manipulating their components
 (LED's, relays, sensors, etc) which abstract away the method by which
-their connected (call sensor.led[0].on() to turn the 0'th LED on a
+their connected (call sensor.led[0].on() to turn on the 0'th LED of a
 sensor board) which makes writing the final sketches which use the
 boards very easy.
 
