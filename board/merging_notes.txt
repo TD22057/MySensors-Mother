@@ -1,0 +1,7 @@
+To created merged board:
+
+Use eagle-brd-merge python script (https://github.com/p12tic/eagle-brd-merge)
+Command:
+merge.py merge.brd Mother\ v1.0\ -\ panel.brd Child\ v1.0\ -\ panel1.brd --offx .83375mm --offy 50mm
+
+moves child board up 50mm and right a small amount to line up w/ main board cutouts.
