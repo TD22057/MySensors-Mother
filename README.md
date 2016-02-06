@@ -38,7 +38,6 @@ The main board contains:
   the shift registers
 - 1 top mounted daughter board header with pins from the mini including
   D3 (IRQ), D5 and D6 (PWM), A3, A4 (SDA), and A5 (SCL)
-- 5cm x 5cm footprint for cheap production
 - all components are top mounted for easier soldering and a bigger
   ground plane for better antenna performance
 
@@ -85,7 +84,7 @@ Here's an image of the assembled boards:
 The boards file contains the individual board designs (done in Eagle)
 as well as panelized versions.  A single 10cm x 10cm panel contains 2
 main boards, 1 each of the AC relay, DC relay, protected input,
-parking board, and I2C board; 2 valvel boards; and 3 sensor boards.  
+parking board, and I2C board; 2 valve boards; and 3 sensor boards.  
 
 # Project Case
 
@@ -109,13 +108,14 @@ their connected (call sensor.led[0].on() to turn the 0'th LED on a
 sensor board) which makes writing the final sketches which use the
 boards very easy.
 
-The software does depend on my ([arduino-core library
+The software does depend on my [arduino-core library
 classes](https://github.com/TD22057/TD-Arduino-Core).
 
 # Licenses
 
 All the software in this repository is covered by the GPL-V3 license
-(see [LICENSE-software](LICENSE-software)).  All the hardare in this
-repository is covered by the CERN Open Hardware Licence v1.2 (see
-[LICENSE-hardware](LICENSE-hardware)).
+(see [LICENSE-software](LICENSE-software)).
+
+All the hardare in this repository is covered by the CERN Open
+Hardware Licence v1.2 (see [LICENSE-hardware](LICENSE-hardware)).
 
